@@ -15,11 +15,11 @@ variable ami_instancia {
 }
 variable prefijo {
   type = string
-  default = "pls"
+  default = "RGV"
   description = "Prefijo que le pondremos a los recursos"
 }
 variable key {
   type = string
-  default = "pls-imported-key"
+  default = "IVV-KEY"
   description = "clave de la instancia"
 }
